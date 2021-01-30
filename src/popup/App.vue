@@ -3,8 +3,8 @@
         <!-- 編集 -->
         <onoff-toggle v-model="checked" theme="material" />
         <br>
-        <button v-on:click="downloadCSV">
-            ダウンロード
+        <button v-on:click="exportCSV">
+            エクスポート
         </button>
         <br>
         <button v-on:click="addtask">
@@ -76,7 +76,7 @@ export default {
     }
   },
   methods: {
-    downloadCSV () {
+    exportCSV () {
       /**
        * 押下時に、今表示されている
        */
@@ -90,7 +90,7 @@ export default {
       })
       const link = document.createElement('a')
       link.href = window.URL.createObjectURL(blob)
-      link.download = 'table.csv'
+      link.download = 'koutei-pengin_memo.csv'
       link.click()
     },
     addtask () {
