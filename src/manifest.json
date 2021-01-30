@@ -9,22 +9,16 @@
     "*://*/*"
   ],
   "icons": {
-    "16": "icons/16.png",
-    "48": "icons/48.png",
-    "128": "icons/128.png"
-  },
-  "background": {
-    "scripts": [
-      "js/background.js"
-    ],
-    "persistent": false
+    "16": "icons/pen_16.png",
+    "48": "icons/pen_48.png",
+    "128": "icons/pen_128.png"
   },
   "browser_action": {
     "default_popup": "popup.html",
     "default_title": "__MSG_extName__",
     "default_icon": {
-      "19": "icons/19.png",
-      "38": "icons/38.png"
+      "19": "icons/pen_19.png",
+      "38": "icons/pen_38.png"
     }
   }
 }
