@@ -34,3 +34,6 @@ npm run lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### image
+![run-image](https://github.com/machitomo/koutei-pengin/blob/image/image_1.png)
